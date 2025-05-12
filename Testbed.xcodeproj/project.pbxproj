@@ -65,6 +65,11 @@
 			path = Shared;
 			sourceTree = "<group>";
 		};
+		4ED7CFB32DD273F500E1C70A /* public functions */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "public functions";
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +102,13 @@
 			children = (
 				4ED7CF692DD26E3800E1C70A /* Testbed */,
 				4ED7CF992DD26F2500E1C70A /* Helpers */,
+				4ED7CFB32DD273F500E1C70A /* public functions */,
 				4ED7CF9D2DD26F6100E1C70A /* Models */,
 				4ED7CF9E2DD26F7A00E1C70A /* Views */,
+				4ED7CFAD2DD26FEE00E1C70A /* Shared */,
 				4ED7CF7A2DD26E3A00E1C70A /* TestbedTests */,
 				4ED7CF842DD26E3A00E1C70A /* TestbedUITests */,
 				4ED7CF682DD26E3800E1C70A /* Products */,
-				4ED7CFAD2DD26FEE00E1C70A /* Shared */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,6 +143,7 @@
 				4ED7CF9D2DD26F6100E1C70A /* Models */,
 				4ED7CF9E2DD26F7A00E1C70A /* Views */,
 				4ED7CFAD2DD26FEE00E1C70A /* Shared */,
+				4ED7CFB32DD273F500E1C70A /* public functions */,
 			);
 			name = Testbed;
 			packageProductDependencies = (
